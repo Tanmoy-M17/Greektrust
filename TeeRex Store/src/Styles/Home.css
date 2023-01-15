@@ -1,0 +1,29 @@
+.Products{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1%;
+    margin: 5%;
+    margin-top: 0px;
+}
+.Container{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+   .Products {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1%;
+    margin: 10%;
+    }
+  }
+
+@media only screen and (max-width: 900px) {
+.Products {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1%;
+    margin: 10%;
+    }
+}  

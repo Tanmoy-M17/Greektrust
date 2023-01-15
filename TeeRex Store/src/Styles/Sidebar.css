@@ -1,0 +1,16 @@
+.Sidebar{
+    width: 17%;
+    height: max-content;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+label {
+    display: flex;
+}
+input[type=checkbox]{
+    flex: none;
+    padding-left: 3px;
+}
+h3{
+    text-align: left;
+    margin:2px;
+}

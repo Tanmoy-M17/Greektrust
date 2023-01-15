@@ -1,0 +1,35 @@
+.Box{
+position: relative;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ProductName{
+    position:absolute;
+    top:11%;
+    left:11%;
+}
+
+.ProductImage{
+    margin: 6%;
+    margin-bottom: 5px;
+    height: 60%;
+    width: 85%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.Buttombox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ProductPrice{
+    margin-bottom: 5px;
+}
+
+.AddToCart{
+    width: 90px ;
+    height: 40px;
+    background-color: rgb(14, 14, 37);
+    color: white;
+    margin-bottom: 5px;
+}
